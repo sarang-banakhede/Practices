@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- tittle -->
+        <tittle id="title">This is tittle</tittle>
+        <hr/>
+    </head>
+    <body>
+        <!--Paragraph-->
+        <p>  para1: this is paragraph . Here, the output remove all the extra spaces between words and remove extra lines between sentences </p>
+        <!--Line break-->
+        <p>  para2:<br> We can use <br> Html br tag <br> to add a LINE BREAK </p>
+        <!--preformatted text-->
+        <pre> using pre formatting text html tag
+                            this will display
+                                     in the same manner
+                                              as it is written                                      
+        </pre>
+        <!--strong/BOLD-->
+        <p>We can use other tags like <strong>the strong tag to emphasize text</strong></p>
+        <p>We can use other tags like <b>the bold b tag to emphasize text</b></p>
+        <!--nonbeakable space-->
+        <p> Add exta space non-breaking space &nbsp;&nbsp; inside the paragraph using & nbsp ; cover space of one unit at once </p>
+        <hr/>
+        <!--headings-->
+        <h1>This is heading 1.</h1>
+        <h2>This is heading 2.</h2>
+        <h3>This is heading 3.</h3>
+        <h4>This is heading 4.</h4>
+        <h5>This is heading 5.</h5>
+        <h6>This is heading 6.</h6>
+        <hr/>
+        <h1>this is table</h1>
+        <!--table1-->
+        <table border="0" width="700" height="50">
+            <thread>
+            <tr bgcolor="lightblue">
+                <th bgcolor="lightpink">Sunday</th>
+                <th>Monday</th>
+                <th>tuesday</th>
+                <th>Wednessday</th>
+                <th>Thrusday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            </thread>
+            <tr bgcolor="lightgreen">
+               <td>closed</td>
+               <td>open</td>
+               <td>open</td>
+               <td>open</td>
+               <td>open</td>
+               <td>open</td>
+               <td>open</td>
+            </tr>
+        </table>
+        <br>
+        <!--table2-->
+        <p>use of colspan</p>
+        <table border="1">
+            <tr>
+                <th>S.N</th>
+                <th>Item</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>2</td>  
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>mango</td>
+                <td>2</td>  
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>orange</td>
+                <td>1</td>  
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <br>
+        <!--table3-->
+        <p>use of rowspan and colspan</p>
+        <table border="1">
+            <tr>
+                <th>S.N</th>
+                <th>Item</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Apple</td>
+                <td>2</td>  
+            </tr>
+            <tr>
+                <td>mango</td>
+                <td>2</td>  
+            </tr>
+            <tr>
+                <td>orange</td>
+                <td>1</td>  
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <hr/>
+        <br>
+        <pre>We can use three types of lists to represent different types of data in HTML:
+             Unordered List ul
+             Ordered List ol
+             Description List dl</pre><br>
+        <!--unorderd list-->     
+        <h3>unordered list</h3>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>  
+        </ul><br>
+        <!--nested list-->
+        <h3>nested list</h3>
+        <ul>
+            <li>
+                item 1
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>  
+                </ul><br>
+            </li>
+            <li>
+                item 2
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>  
+                </ul><br>
+            </li>
+            <li>
+                item 3
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>  
+                </ul><br>
+            </li>  
+        </ul><br>
+        <!--ordered list-->
+        <h3>ordered list</h3>
+        <ol type="a">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol><br>
+        <!--multilevel nesting-->
+        <h3>multi level nesting</h3>
+        <ol type="I">
+            <li>
+                background skills
+                <ol type="A">
+                    <li>Unix Commands</li>
+                    <li>Vlm Test Editon</li>
+                </ol>
+            </li>
+            <li>
+                HTML 
+                <ol type="A">
+                    <li>minimal page</li>
+                    <li>headings</li>
+                    <li>elements
+                        <ol type="i">
+                            <li>minimal page</li>
+                            <li>headings</li>
+                            <li>elements</li>
+                            <li>lists</li>
+        
+                        </ol>
+                    </li>
+                    <li>lists</li>
+
+                </ol>
+            </li>
+            
+        </ol>
+
+        <h3>description list</h3>     
+        <!--description list-->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+            <dt>PHP</dt>
+            <dd>PHP Hypertext Preprocessor</dd>
+            <dt>SQL</dt>
+            <dd>Structured Query Language</dd>
+        </dl><br>
+        <hr/>
+        <!--span tag-->
+        <h3>this is how <span style="border : 1px solid black">span</span> work</h3>
+        <hr/>
+
+        <!--link -->
+        <a href="https://www.youtube.com/" target="_self">open Youtube in current tab</a>
+        <br>
+        <!--link in image-->
+        <a href="https://www.youtube.com/"> <img src="https://www.gizmochina.com/wp-content/uploads/2020/03/YouTube-Logo.png" alt="youtube"> </a>
+        <br>
+        <a href="https://www.youtube.com/" target="_blank">open youtube in new tab</a>
+        <br>
+        <a href="https://www.gizmochina.com/wp-content/uploads/2020/03/YouTube-Logo.png" download>Download image</a>
+        <br>
+        <!--Link to an element in the same webpage:-->
+        <a href="#title">Go to Title</a>
+        <br>
+        <!--Link to an element in another webpage:-->
+        <a href="programiz.com/html/head#title-tag"> Link </a>
+        <br>
+        <!--Email links:-->
+        <a href="mailto:gdbanakhede01@gmail.com" > Send Mail </a>
+        <br>
+        <!--call link:-->
+        <a href="tel:+917999989151" > Call Me </a>
+        <br>
+        <hr/>
+        <!--HTML image-->
+        <p>normal photo</p><br>
+        <img src="download.jpeg" alt="ratan tata">
+        <br>
+        <p>photo with tittle</p><br>
+        <img src="download.jpeg" alt="ratan tata" title="ratan tata" >
+        <br>
+        <img src="download.jpeg" alt="ratan tata" width="200" height="200">
+        <hr/>
+        <!--superscript and sub script-->
+        <h1>12<sup>th</sup></h1><h1>H<sub>2</sub>O</h1> <br>
+        <p> This text is <mark>marked</mark>.</p>
+        <p> This text is <u>underlined</u>.</p>
+        <p> This text is <del>deleted</del>.</p>
+        <p> This text is <del>deleted</del> <ins>inserted</ins>.</p>
+        <p> This text is <big>bigger</big></p>
+        <p> This text is <small>smaller</small>.</p>
+        <hr/>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
